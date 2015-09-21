@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DAEEC"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center" >
+    
+    
+     <TextView
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textScaleX="2.3"
+            android:textColorHighlight="#000"
+            android:textSize="60dp"
+            android:text="FIND"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+   
+     
+     <TextView
+            android:id="@+id/the"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textScaleX="2"
+            android:layout_marginTop="5dp"
+            android:textColorHighlight="#000"
+            android:textSize="40dp"
+            android:text="THE"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/im" 
+         android:layout_gravity="center"/>
+    
+     <TextView
+            android:id="@+id/different"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textScaleX="1.5"
+            android:layout_marginTop="5dp"
+            android:textColorHighlight="#000"
+            android:textSize="30dp"
+             android:text="DIFFERENT"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+       <TextView
+            android:id="@+id/cube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textScaleX="2"
+            android:textColorHighlight="#000"
+            android:layout_marginTop="5dp"
+            android:textSize="60dp"
+            android:text="CUBE"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+    
+</LinearLayout>
